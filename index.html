@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <!----Navbar---->
+    <nav class="navbar">
+        <h1 class="logo">MY DESTINATION</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="home.html"></a>Home</li>
+            <li><a href="#"></a>Gallery</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn-1"><a href="#">Contact</a></li>
+        </ul>
+        <img src="/images/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>"LIFE IS A WONDERFUL GIFT"</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <!-----Upcoming Events------>
+    <section class="events">
+        <div class="title">
+            <h1>"Believe in the goodness of the world"</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="/images/img6.jpg" alt="">
+                <h4>Pha Sud Pandin</h4>
+                <p>"In the midst of chaos, there’s always a place for peace and calm."</p>
+                <a href="#" class="ctn-2">See More</a>
+            </div>
+            <div class="col">
+                <img src="/images/img9.jpg" alt="">
+                <h4>Sunshines Day</h4>
+                <p>"Every sunrise brings new hope, and every sunset reminds us of life’s endless possibilities."</p>
+                <a href="#" class="ctn-2">See More</a>
+            </div>
+            <div class="col">
+                <img src="/images/img15.jpg" alt="">
+                <h4>Khoa Khoe Holidays</h4>
+                <p>"The beauty of the world lies in the diversity of its people and places."</p>
+                <a href="#" class="ctn-2">See More</a>
+            </div>
+            <div class="col">
+                <img src="/images/img16.jpg" alt="">
+                <h4>Friendship</h4>
+                <p>"In a world where you can be anything, be kind."</p>
+                <a href="#" class="ctn-2">See More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>"Happiness is found in the moments we share and the memories we create together."</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>"A Glimpse into My Happy Holiday Life"</h1>
+                <div class="line"></div>
+                <p>"Every holiday reminds me of how fortunate I am to have such a loving family. It’s in these precious moments that we find true happiness – in the love we share and the memories we create together."</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="/images/img8.jpg" alt="">
+                    <img src="/images/img10.jpg" alt="">
+                    <img src="/images/img11.jpg" alt="">
+                    <img src="/images/img12.jpg" alt="">
+                    <img src="/images/img13.jpg" alt="">
+                    <img src="/images/img20.jpg" alt="">
+                    <img src="/images/img17.jpg" alt="">
+                    <img src="/images/img23.jpg" alt="">
+                    <img src="/images/img18.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>"The greatest joys in life are found in the simple moments spent with loved ones."</p>
+        <p class="p-1">Copyright @ 2024 Outdoor Adventure - Created by Song Kaenthaisong</p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', ()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
